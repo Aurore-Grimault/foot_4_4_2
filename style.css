@@ -64,7 +64,7 @@ main {
 	padding: 40px 50px;
 }
  
-.pitch {
+.terrain {
 	background-image: url('texture_herbe.jpg') ;
 	width: 355px;
 	height: 455px;
@@ -73,30 +73,23 @@ main {
 	margin: 10px 16px;
 	display: inline-block;
 	position: center;
+	transition: .3s linear all;
 }
 
-.pitch h4 {
-	position: absolute;
-	color: #eee;
-	text-align: center;
-	margin: -40px 153px;
-	position: center;
-}
-
-.pitch .container {
+.terrain .container {
 	width: 350px;
 	height: 450px;
 	border: 2px solid #eee;
 	position: relative;
 }
 
-.pitch .half {
+.terrain .half {
 	margin: 217px 0 0 -2px;
 	width: 350px;
 	border: 1px solid #eee;
 }
 
-.pitch .half:before {
+.terrain .half:before {
 	position: absolute;
 	margin: -63px 115px;
 	width: 120px;
@@ -106,7 +99,7 @@ main {
 	content: "";
 }
 
-.pitch .box1 {
+.terrain .box1 {
 	position: absolute;
 	margin: -2px 114px;
 	width: 120px;
@@ -114,7 +107,7 @@ main {
 	border: 2px solid #eee;
 }
 
-.pitch .pen1 {
+.terrain .pen1 {
 	position: absolute;
 	margin: -2px 21px;
 	width: 75px;
@@ -122,7 +115,7 @@ main {
 	border: 2px solid #eee;
 }
 
-.pitch .box2 {
+.terrain .box2 {
 	position: absolute;
 	margin: 169px 114px;
 	width: 120px;
@@ -130,7 +123,7 @@ main {
 	border: 2px solid #eee;
 }
 
-.pitch .pen2 {
+.terrain .pen2 {
 	position: absolute;
 	margin: 23px 21px;
 	width: 75px;
