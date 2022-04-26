@@ -1,0 +1,210 @@
+body {
+	position: inherit;
+	width: 300px;
+	margin: 0, auto;
+	background: #2d3639;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+	position: center;
+	margin: 0, auto;
+}
+
+.ball{
+    max-width: 30px;
+	margin: 10, auto;
+	animation: 3s linear 1s infinite alternate slidein;
+	position: absolute;
+
+}
+
+@keyframes slidein{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width:600px) {
+	header {
+		position: center;
+	}
+
+	.pitch {
+	  position: center;
+	}
+
+	main {
+		transform: rotate(90deg);
+		margin: auto;
+		position: center;
+	}
+}
+
+title {
+    flex-wrap: wrap;
+    height: auto;
+	position: center;
+}
+
+header {
+	width: 100%;
+	color: #eee;
+	border-bottom: 1px solid #eee;
+	border-radius: 10em;
+	font-size: 32px;
+	padding: 20px 70px;
+	position: center;
+}
+
+nav {
+    flex-wrap: wrap;
+    height: auto;
+	position: center;
+}
+
+main {
+	padding: 40px 50px;
+}
+ 
+.pitch {
+	background-image: url('texture_herbe.jpg') ;
+	width: 355px;
+	height: 455px;
+	border-radius: 15px;
+	padding: 20px;
+	margin: 10px 16px;
+	display: inline-block;
+	position: center;
+}
+
+.pitch h4 {
+	position: absolute;
+	color: #eee;
+	text-align: center;
+	margin: -40px 153px;
+	position: center;
+}
+
+.pitch .container {
+	width: 350px;
+	height: 450px;
+	border: 2px solid #eee;
+	position: relative;
+}
+
+.pitch .half {
+	margin: 217px 0 0 -2px;
+	width: 350px;
+	border: 1px solid #eee;
+}
+
+.pitch .half:before {
+	position: absolute;
+	margin: -63px 115px;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	border: 2px solid #eee;
+	content: "";
+}
+
+.pitch .box1 {
+	position: absolute;
+	margin: -2px 114px;
+	width: 120px;
+	height: 60px;
+	border: 2px solid #eee;
+}
+
+.pitch .pen1 {
+	position: absolute;
+	margin: -2px 21px;
+	width: 75px;
+	height: 35px;
+	border: 2px solid #eee;
+}
+
+.pitch .box2 {
+	position: absolute;
+	margin: 169px 114px;
+	width: 120px;
+	height: 60px;
+	border: 2px solid #eee;
+}
+
+.pitch .pen2 {
+	position: absolute;
+	margin: 23px 21px;
+	width: 75px;
+	height: 35px;
+	border: 2px solid #eee;
+}
+
+p {
+	width: 355px;
+	height: 455px;
+	background: rgba(0, 0, 0, .6);
+	margin: 13px 16px;
+	border-radius: 5px;
+	padding: 20px;
+	display: inline-block;
+}
+
+p:after {
+	content: '';
+	position: absolute;
+	top: 87%;
+	margin: 0 0 0 160px;
+	width: 0;
+	height: 0;
+	opacity: 0.6;
+	border-bottom: solid 10px #000;
+	border-left: solid 20px transparent;
+	border-right: solid 20px transparent;
+}
+
+.pos1, .pos2, .pos3, .pos4, .pos5, .pos6, .pos7, .pos8, .pos9, .pos10, .pos11 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: rgb(120, 184, 237);
+	background-image: url('equipe_one.png');
+	color: #34495e;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 100;
+	transition: .3s linear all;
+	z-index: 1;
+}
+
+.pos1:hover, .pos2:hover, .pos3:hover, .pos4:hover, .pos5:hover, .pos6:hover, .pos7:hover, .pos8:hover, .pos9:hover, .pos10:hover, .pos11:hover {
+	color: #BDC3C7;
+	background: #34495e;
+}
+
+.pos12, .pos13, .pos14, .pos15,.pos16, .pos17, .pos18, .pos19, .pos20, .pos21, .pos22 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #898c8f;
+	background-image: url('equipe_two.png');
+	color: #7a1078;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 100;
+	transition: .3s linear all;
+	z-index: 1;
+}
+
+.pos12:hover, .pos13:hover, .pos14:hover, .pos15:hover, .pos16:hover, .pos17:hover, .pos18:hover, .pos19:hover, .pos20:hover, .pos21:hover, .pos22:hover {
+	color: #898c8f;
+	background: #7a1078;
+}

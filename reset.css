@@ -1,0 +1,20 @@
+.pos12, .pos13, .pos14, .pos15,.pos16, .pos17, .pos18, .pos19, .pos20, .pos21, .pos22 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #cd5151;
+	background-image: url('equipe_two.png');
+	color: #3e040f;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 100;
+	transition: .3s linear all;
+	z-index: 1;
+}
+.pos12:hover, .pos13:hover, .pos14:hover, .pos15:hover, .pos16:hover, .pos17:hover, .pos18:hover, .pos19:hover, .pos20:hover, .pos21:hover, .pos22:hover {
+	color: #898c8f;
+	background: #7a1078;
+}
+  
