@@ -13,8 +13,10 @@
 	transition: .3s linear all;
 	z-index: 1;
 }
+
 .pos12:hover, .pos13:hover, .pos14:hover, .pos15:hover, .pos16:hover, .pos17:hover, .pos18:hover, .pos19:hover, .pos20:hover, .pos21:hover, .pos22:hover {
 	color: #898c8f;
 	background: #7a1078;
+	
 }
   

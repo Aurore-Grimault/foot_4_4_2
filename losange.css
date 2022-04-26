@@ -10,65 +10,67 @@
 	line-height: 30px;
 	font-size: 15px;
 	font-weight: 100;
-	transition: .3s linear all;
+	transition: all 1s ease-in-out;
 	z-index: 1;
 }
+
 .pos12:hover, .pos13:hover, .pos14:hover, .pos15:hover, .pos16:hover, .pos17:hover, .pos18:hover, .pos19:hover, .pos20:hover, .pos21:hover, .pos22:hover {
 	color: #cd5151;
 	background: #3e040f;
+    
 }
 
 .pos12 {
-    transform: translateX(0.67em) translateY(-0.5em) rotate(0deg);
+    transform: translateX(0em) translateY(-0.9em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos13 {
-    transform: translateX(16.67em) translateY(2.5em) rotate(0deg);
+    transform: translateX(6.3em) translateY(-1.9em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos14 {
-    transform: translateX(-7.33em) translateY(-2.5em) rotate(0deg);
+    transform: translateX(-5.5em) translateY(-1.9em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos15 {
-    transform: translateX(-4.33em) translateY(0.5em) rotate(0deg);
+    transform: translateX(-2.33em) translateY(-1.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos16 {
-    transform: translateX(-3.33em) translateY(0.5em) rotate(0deg);
+    transform: translateX(3em) translateY(-1.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos17 {
-    transform: translateX(7.67em) translateY(-0.5em) rotate(0deg);
+    transform: translateX(4.5em) translateY(-1.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos18 {
-    transform: translateX(7.67em) translateY(-5.5em) rotate(0deg);
+    transform: translateX(0.67em) translateY(-6em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos19 {
-    transform: translateX(-6.33em) translateY(-5.5em) rotate(0deg);
+    transform: translateX(4.67em) translateY(-4em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos20 {
-    transform: translateX(-9.33em) translateY(-16.5em) rotate(0deg);
+    transform: translateX(-8.33em) translateY(-9.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos21 {
-    transform: translateX(2.2em) translateY(-7.5em) rotate(0deg);
+    transform: translateX(-0.8em) translateY(-11.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos22 {
-    transform: translateX(2.67em) translateY(-12.5em) rotate(0deg);
+    transform: translateX(0.9em) translateY(-11.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
