@@ -46,11 +46,12 @@ header {
 }
 
 button {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	transition: all 1s ease-in-out;
 }
 
 button:hover {
-	background-color: rgb(189, 190, 189);
+	background-color: rgb(173, 177, 173);
   }
 
 nav {
