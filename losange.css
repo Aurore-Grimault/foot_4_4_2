@@ -3,7 +3,7 @@
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
-	background-color: #cd5151;
+	background-color: #400447;
 	background-image: url('equipe_two.png');
 	color: #3e040f;
 	text-align: center;
@@ -19,56 +19,56 @@
 }
 
 .pos12 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(0.67em) translateY(-0.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos13 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(16.67em) translateY(2.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos14 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(-7.33em) translateY(-2.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos15 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(-4.33em) translateY(0.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos16 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(-3.33em) translateY(0.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos17 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(7.67em) translateY(-0.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos18 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(7.67em) translateY(-5.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos19 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(-6.33em) translateY(-5.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos20 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(-9.33em) translateY(-16.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos21 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(2.2em) translateY(-7.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
 
 .pos22 {
-    transform: translateX(12.67em) translateY(4.5em) rotate(106deg);
+    transform: translateX(2.67em) translateY(-12.5em) rotate(0deg);
     transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78);
 }
