@@ -16,8 +16,8 @@ section{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	-webkit-animation: 6s linear 0s infinite alternate slidein;
-	animation: 6s linear 0s infinite alternate slidein;
+	-webkit-animation: 4s linear 0s infinite alternate slidein;
+	animation: 4s linear 0s infinite alternate slidein;
 	position: absolute;
 }
 
