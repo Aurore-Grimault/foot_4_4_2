@@ -4,18 +4,32 @@ body {
 	margin: 0, auto;
 	background: #2d3639;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	rotate: (90deg);
 }
 
 section{
+		position: center;
+		margin: 0, auto;
+}
+
+.terrain {
+	background-image: url('texture_herbe.jpg') ;
+	width: 355px;
+	height: 455px;
+	border-radius: 15px;
+	padding: 20px;
+	margin: 10px 16px;
+	display: inline-block;
 	position: center;
-	margin: 0, auto;
+	transition: .3s linear all;
+
 }
 
 .ball{
 	max-width: 30px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	-webkit-animation: 4s linear 0s infinite alternate slidein;
 	animation: 4s linear 0s infinite alternate slidein;
 	position: absolute;
@@ -32,8 +46,8 @@ section{
 }
 
 title {
-    flex-wrap: wrap;
-    height: auto;
+	flex-wrap: wrap;
+	height: auto;
 	position: center;
 }
 
@@ -46,34 +60,22 @@ header {
 }
 
 button {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	transition: all 1s ease-in-out;
 }
 
 button:hover {
 	background-color: rgb(173, 177, 173);
-  }
+}
 
 nav {
-    flex-wrap: wrap;
-    height: auto;
+	flex-wrap: wrap;
+	height: auto;
 	position: center;
 }
 
 main {
 	padding: 40px 50px;
-}
- 
-.terrain {
-	background-image: url('texture_herbe.jpg') ;
-	width: 355px;
-	height: 455px;
-	border-radius: 15px;
-	padding: 20px;
-	margin: 10px 16px;
-	display: inline-block;
-	position: center;
-	transition: .3s linear all;
 }
 
 .terrain .container {
@@ -194,4 +196,19 @@ p:after {
 .pos12:hover, .pos13:hover, .pos14:hover, .pos15:hover, .pos16:hover, .pos17:hover, .pos18:hover, .pos19:hover, .pos20:hover, .pos21:hover, .pos22:hover {
 	color: #898c8f;
 	background: #7a1078;
+}
+
+@media screen and (max-width: 768px) {
+	.terrain {
+		background-image: url('texture_herbe.jpg') ;
+		width: 355px;
+		height: 455px;
+		border-radius: 15px;
+		padding: 20px;
+		margin: 10px 16px;
+		display: inline-block;
+		position: center;
+		transition: .3s linear all;
+		transform:rotate(90deg);
+	}
 }
